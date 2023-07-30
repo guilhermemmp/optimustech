@@ -9,23 +9,22 @@
 
 .cabecalho{
     display: flex;
-    padding: 2% 5%;
-    
+    justify-content: space-around;
     align-items: center;
+    padding: 1rem 5rem;
 }
 
 .cabecalho__navbar{
     display: flex;
-    gap: 32px;
-    padding: 0 40rem 0 10rem;
+    gap: 2rem;
     align-items: center;
+    width: 50%;
 }
 
 .cabecalho__botoes{
     display: flex;
-    gap: 12px;
+    gap: 0.75rem;
 }
-
 
 .cabecalho__navbar__links{
     color: #667085;
@@ -66,7 +65,7 @@ button#cabecalho__botoes__cadastro{
 .conteudo__sobre__titulo{
     font-family: var(--fonte-primaria);
     font-weight: 600;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .conteudo__sobre__texto{
