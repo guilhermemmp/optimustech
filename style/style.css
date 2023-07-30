@@ -10,14 +10,15 @@
 .cabecalho{
     display: flex;
     padding: 2% 5%;
-    justify-content: space-between;
+    
     align-items: center;
 }
 
 .cabecalho__navbar{
     display: flex;
     gap: 32px;
-    padding: 0 40rem 0 0;
+    padding: 0 40rem 0 10rem;
+    align-items: center;
 }
 
 .cabecalho__botoes{
@@ -31,8 +32,6 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     font-size: 1.2rem;
-    border: none;
-    background: none;
 }
 
 button{
