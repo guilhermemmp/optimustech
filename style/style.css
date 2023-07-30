@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
     --vinho: #8E2424;
@@ -72,6 +72,43 @@ button#cabecalho__botoes__cadastro{
 
 .conteudo__sobre__texto{
     font-family: var(--fonte-primaria);
+    font-weight: 400;
     font-size: 20px;
     color: var(--cinza);
+}
+
+.conteudo__metricas{
+    display: flex;
+    padding: 0 6.5rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.conteudo__metricas__div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.conteudo__metricas__numero{
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+    margin-bottom: 0.5rem;
+}
+
+.conteudo__metricas__titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.conteudo__metricas__texto{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    color: var(--cinza);
+    font-size: 1rem;
+    padding: 0 3.125rem 0 0;
 }
