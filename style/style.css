@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
+    --preto: #101828;
     --vinho: #8E2424;
     --cinza: #667085;
 
@@ -65,7 +66,7 @@ button#cabecalho__botoes__cadastro{
 .conteudo__sobre__titulo{
     font-family: var(--fonte-primaria);
     font-weight: 600;
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .conteudo__sobre__texto{
@@ -109,4 +110,156 @@ button#cabecalho__botoes__cadastro{
     color: var(--cinza);
     font-size: 1rem;
     padding: 0 3.125rem 0 0;
+}
+
+.conteudo__recrutamento{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 96px 0 0 0;
+    align-items: center;
+}
+
+.conteudo__recrutamento__titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.conteudo__recrutamento__abertas{
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    color: var(--vinho);
+    font-size: 14px;
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 0.25rem 0.75rem;
+}
+
+.conteudo__recrutamento__imagem{
+    margin: 1.6rem 7rem 4rem 7rem;
+}
+
+.area{
+    padding: 0 0 0.5rem 0;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--preto);
+}
+
+.conteudo__recrutamento__vagas{
+    width: 48rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-family: var(--fonte-primaria);
+}
+
+.vaga__area{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vaga{
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px #EAECF0 solid;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.vaga__informacoes{
+    color: var(--cinza);
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.conteudo__depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 112px 96px;
+    padding: 4rem;
+    background: rgba(142, 36, 36, 0.05);
+    text-align: center;
+    gap: 1rem;
+}
+
+.depoimento__titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vinho);
+}
+
+.depoimento{
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--preto);
+}
+
+.depoimento__autor{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.autor__foto{
+    align-self: center;
+    width: 56px;
+    height: 56px;
+    margin: 1rem 0 0.75rem 0;
+}
+
+.autor__nome{
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    color: var(--preto);
+    font-size: 1rem;
+}
+
+.autor__cargo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    color: var(--cinza);
+    font-size: 0.875rem;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+    padding: 96px 336px;
+    gap: 1.25rem;
+    text-align: center;
+}
+
+.direitos{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1rem;
+    color: #98A2B3;
+}
+
+input{
+    border-radius: 0.5rem;
+    border: 1px solid #D0D5DD;
+    outline: none;
+    font-size: 1rem;
+    padding: 12px 14px 12px 16px;
+}
+
+.email{
+    display: flex;
+    gap: 1rem;
+    padding: 1.25rem 0 0 0.75rem;
 }
