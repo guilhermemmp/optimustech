@@ -5,6 +5,7 @@
 
 ### 🔎 O que falta?:
 - Responsividade
+- Refinar o código
 
 ### 👩🏻‍💻 Linguagens usadas:
 - HTML
